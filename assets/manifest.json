@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "main.css": {
+      "files": [
+        "sass/main.scss"
+      ],
+      "main": true
+    },
+    "main.js": {
+      "files": [
+        "js/_main.js"
+      ],
+      "main": true
+    }
+  }
+}

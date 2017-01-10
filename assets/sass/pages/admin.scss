@@ -1,0 +1,95 @@
+
+/* Begin Isobar Redirects - Admin */
+
+.add-redirect {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  margin-left: -10px;
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.delete-redirect {
+  text-decoration: underline;
+  font-weight: 500;
+  color: $red;
+  cursor: pointer;
+
+  &:hover {
+    color: $dark-red;
+  }
+}
+
+.isobar-redirect-uploads {
+  display: flex;
+
+  .redirect-block {
+    margin-right: 20px;
+    padding: 15px 0;
+    color: $blue;
+    text-decoration: underline;
+    cursor: pointer;
+
+    &:hover {
+      color: $dark-blue;
+    }
+  }
+
+  .-options {
+    width: 65%;
+    text-align: right;
+  }
+
+  .counter {
+    max-width: 20px;
+  }
+
+  .redirect-warning {
+    text-decoration: underline;
+    font-weight: 600;
+    color: $dark-red;
+
+    &:hover {
+      color: $red;
+    }
+  }
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999999;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: $white;
+  opacity: 1;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid $off-white;
+  width: 50%;
+
+  .form-group {
+    padding: 20px 0;
+  }
+}
+
+.close {
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.-hidden {
+  display: none;
+}
